@@ -52,6 +52,7 @@ function addTodo(event) {
       document.getElementById('notasks').innerHTML = ("You're all caught up!</br><span>✓</span>");
     }
     setTimeout(my_func, 3000);
+    hideMessage();
   }
 }
 

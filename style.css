@@ -101,6 +101,11 @@ form button:hover  {
     font-size: 1.2rem;
 }
 
+.todo-button i {
+    position: relative;
+    top: -1px;
+}
+
 .trash-btn, .complete-btn {
     background-color: #ff7049;
     color: white;
@@ -134,19 +139,17 @@ select {
     -moz-appearance: none;
     appearance: none;
     outline: none;
+    color: #fc8563;
+    width: 10rem;
+    cursor: pointer;
+    padding: 1.1rem;
+    background-color: #fff;
 }
 
 .select {
     margin: 0.8rem 0rem 0.8rem 0.8rem;
     position: relative;
     overflow: hidden;
-}
-
-select {
-    color: #fc8563;
-    width: 10rem;
-    cursor: pointer;
-    padding: 1.1rem;
 }
 
 .select::after {
